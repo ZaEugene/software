@@ -7,7 +7,7 @@ const users = pgTable('users', {
     email: varchar('email', { length: 256 }),
     createdAt: timestamp('created_at').default(sql`CURRENT_TIMESTAMP`)
 });
-
+ 
 const products = pgTable('products', {
     id: serial('id').primaryKey(),
     name: varchar('name', { length: 256 }),
