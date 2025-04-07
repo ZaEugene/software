@@ -8,5 +8,5 @@ export default {
         user: 'nodejs_course_admin',
         password: 'my_password',
         database: 'nodejs_course_database',
-    },
+    }, 
 };
